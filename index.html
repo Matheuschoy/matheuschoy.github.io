@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Desenvolvedor Front End & X/UI Designer Localizado no Rio Grande do Sul">
+  <meta name="description" co ntent="Desenvolvedor Front End & X/UI Designer Localizado no Rio Grande do Sul">
   <link rel="stylesheet" href="./css/style.css">
   <title>Desenvolvedor e Designer</title>
 
@@ -15,35 +15,43 @@
 </head>
 
 <body>
-  <header class="header">
-    <img src="./img/marca.svg" alt="Lobo" width="104" height="30">
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+  <header class="header-bg">
+    <div class="header">
+      <!-- <img src="./img/svg/dev.svg" alt="matheusdev" width="104" height="30"> -->
+      <p>MatheusDev()</p>
+      <nav>
+        <ul class="header-menu">
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/matheus-choynowski-1b7a621aa/" target="_blank"><img src="/img/icons/icons8-linkedin-circundado.svg" alt="linkedin"></a>
+        <a href="https://github.com/Matheuschoy" target="_blank"><img src="/img/icons/icons8-github.svg" alt="github"></a>
+      </div>
+    </div>
   </header>
 
   <main class="introducao">
-    <img src="./img/perfil.jpg" alt="Lobo cinza" width="360" height="520">
+    <img src="./img/perfil2.jpg" alt="Lobo cinza" width="360" height="520">
     <div>
       <h1>Desenvolvedor<br>Front End &<br>UX/UI Designer</h1>
-      <p>Localizado no Rio Grande do Sul</p>
+      <p class="localizado">Localizado no Rio Grande do Sul</p>
     </div>
+    <p class="nome">Matheus Choynowski</p>
   </main>
 
   <section class="experiencia" id="experiencia" aria-label="Experiência">
     <h2 class="subtitulo">Experiência</h2>
     <div>
-      <p class="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web como a rede social Dogs eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto.</p>
+      <p class="experiencia-texto">Desenvolvo pequenos projetos como o <span class="exp">Bikcraft</span> utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web como a rede social Dogs eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto. <br><br> Ainda não tive a <strong>oportunindade</strong> de trabalhar em uma empresa na área de desenvolvimento.</p>
 
       <div class="empresa">
-        <span class="empresa-ano">2045</span>
+        <span class="empresa-ano">2020</span>
         <h3 class="empresa-titulo">Bikcraft</h3>
-        <span class="empresa-titulo">Desenvolvedor Júnior</span>
-        <p class="empresa-texto">No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
+        <span class="empresa-titulo">Habilidades utilizadas</span>
+        <p class="empresa-texto">No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site.</p>
         <ul class="empresa-habilidade">
           <li>HTML</li>
           <li>CSS</li>
@@ -54,10 +62,10 @@
       </div>
 
       <div class="empresa">
-        <span class="empresa-ano">2044-45</span>
-        <h3 class="empresa-titulo">Sufbot</h3>
-        <span class="empresa-titulo">Estagiário</span>
-        <p class="empresa-texto">Surfbot é uma empresa que oferece aulas de surf no Rio de Janeiro. O projeto foi feito com HTML, CSS e JavaScript. Tudo o projeto foi feito do zero.</p>
+        <span class="empresa-ano">2022</span>
+        <h3 class="empresa-titulo">teste</h3>
+        <span class="empresa-titulo">Habilidades utilizadas</span>
+        <p class="empresa-texto">x é uma empresa que oferece aulas de surf no Rio de Janeiro. O projeto foi feito com HTML, CSS e JavaScript. Tudo o projeto foi feito do zero.</p>
         <ul class="empresa-habilidade">
           <li>HTML</li>
           <li>CSS</li>
@@ -66,10 +74,10 @@
       </div>
 
       <div class="empresa">
-        <span class="empresa-ano">2045</span>
-        <h3 class="empresa-titulo">Brafé</h3>
-        <span class="empresa-titulo">Desenvolvedor Júnior</span>
-        <p class="empresa-texto">Mais de 3 projetos foram desenvolvidos para a empresa Brafé. Eu trabalhei na criação do email marketing e também no HTML.</p>
+        <span class="empresa-ano">2022</span>
+        <h3 class="empresa-titulo">projeto2</h3>
+        <span class="empresa-titulo">Habilidades utilizadas</span>
+        <p class="empresa-texto">Mais de 3 projetos foram desenvolvidos para a empresa x. Eu trabalhei na criação do email marketing e também no HTML.</p>
         <ul class="empresa-habilidade">
           <li>Email Marketing</li>
           <li>HTML</li>
@@ -87,24 +95,19 @@
 
       <div>
         <p class="formacao-texto">
-          Minha mais recento experiência foi o <strong>mestrado</strong> que fiz no exterior em <strong>UX Design</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online.
+          Minha mais recente experiência foi o com o projeto <strong>Bikcraft</strong> com a <strong>Origamid</strong> , nele pude aprender e desenvolver muitas das minhas habilidades. Além disso me mantenho sempre atualizado com cursos intensivos online.
         </p>
 
         <ul class="faculdade-lista">
           <li class="faculdade">
-            <span class="faculdade-tipo">Bacharel</span>
-            <h3 class="faculdade-curso">Administração de empresas</h3>
-            <span class="faculdade-instituicao">UFRRJ</span>
-          </li>
-          <li class="faculdade">
             <span class="faculdade-tipo">Tecnólogo</span>
-            <h3 class="faculdade-curso">Design Digital</h3>
-            <span class="faculdade-instituicao">Infnet</span>
+            <h3 class="faculdade-curso">Comércio Exterior</h3>
+            <span class="faculdade-instituicao">Cesuca - Faculdade Inedi</span>
           </li>
           <li class="faculdade">
-            <span class="faculdade-tipo">Mestre</span>
-            <h3 class="faculdade-curso">User Experience Design</h3>
-            <span class="faculdade-instituicao">UCLL</span>
+            <span class="faculdade-tipo">Bacharel</span>
+            <h3 class="faculdade-curso">Engenharia de Software</h3>
+            <span class="faculdade-instituicao">Anhanguera</span>
           </li>
         </ul>
 
@@ -112,16 +115,15 @@
           <div class="cursos">
             <h3>Cursos intensivos</h3>
             <ul>
-              <li>UX Design & UI Design <span>56h</span></li>
-              <li>Front End para iniciantes <span>72h</span></li>
+              <li>Front End para iniciantes - Origamid <span>72h</span></li>
+              <li>Bootcamp web developer - DIO <span>92h</span></li>
             </ul>
           </div>
 
           <div class="idiomas">
             <h3>idiomas</h3>
             <ul>
-              <li>Inglês <span>/ Fluente</span></li>
-              <li>Espanhol <span>/ Intermediário</span></li>
+              <li>Inglês <span>/ Intermediário</span></li>
             </ul>
           </div>
         </div>
@@ -133,11 +135,11 @@
     <div class="footer-container">
       <p class="footer-texto">Estou disponivel para novos projetos no momento. Entre em contato comigo e marcamos uma coversa.</p>
       <ul class="footer-contato">
-        <li>lobo@email.com</li>
-        <li>+55 11 9999-9999</li>
-        <li><a href="/">Instagram</a></li>
+        <li>contato@matheusdev.com</li>
+        <li>+55 51 98588-8714</li>
+        <li><a href="https://www.linkedin.com/in/matheus-choynowski-1b7a621aa/">Linkedin</a></li>
       </ul>
-      <p class="footer-copy">Lobo. Alguns direitos reservados.</p>
+      <p class="footer-copy">Matheus Choynowski Alguns direitos reservados.</p>
     </div>
   </footer>
 </body>

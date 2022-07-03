@@ -23,6 +23,20 @@
   color: #141414;
 }
 
+.exp {
+  position: relative;
+}
+
+.exp::before {
+  content: '';
+  display: inline-block;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  bottom: 1px;
+}
+
 .empresa {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -33,6 +47,13 @@
   border-radius: 4px;
   position: relative;
 }
+
+/* .empresa:hover {
+  background-image: url("../img/bikcraft-bg2.jpg") ;
+  background-size: 100%;
+  opacity: 20%;
+  object-fit: cover;
+} */
 
 .empresa::before {
   content: "";
@@ -80,10 +101,17 @@
   border-radius: 4px;
   background: #fff;
   padding: 5px 10px;
+  cursor: pointer;
+}
+
+.empresa-habilidade li:hover {
+  background-color: #67dd0a;
+  color: #f5f5f5;
 }
 
 @media (max-width: 800px) {
   .experiencia {
+    padding: 20px 20px;
     grid-template-columns: 1fr;
     gap: 49px;
   }
